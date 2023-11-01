@@ -11,7 +11,21 @@ internal class Program
 
         /* demoLinq02.PrintData(); */
         /* demoLinq02.PrintDataByNameAndId(); */
-        demoLinq02.AnotherNameAndId();
+        /* demoLinq02.AnotherNameAndId(); */
+        /* demoLinq02.FilterData(); */
+        /* demoLinq02.AgeAscendent();
+        demoLinq02.AgeDescendent(); */
+
+        demoLinq02.FuncJoin();
+
+/*         string letter;
+        Console.WriteLine("Ingrese la letra del tipo de ordenamiento que quiere\nA -> Ascendente\nB -> Descendente");
+        letter = Console.ReadLine();
+        var list = demoLinq02.Order(letter.ToUpper());
+        foreach (var item in list)
+        {
+            Console.WriteLine($"{item.Name}");
+        } */
 
         
     }
